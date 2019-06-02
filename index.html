@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analysis of Point-of-Care Advertising Content and Patient Outcomes in Veterinary Clinics</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="header2">
+				<div id="header_text">
+					<h1>Analysis of Point-of-Care Advertising Content and Patient Outcomes in Veterinary Clinics</h1>
+					
+					
+				</div>
+			</div>
+			<div id="tabs">
+				<ul id="menu">
+			
+					<li class="selected"><a href="index.html">Data Overview of Veterinary Practices: Pet Compliance Ratings and Media Content Observed</a></li>
+					<li><a href="Analysis.html">Analysis and Findings</a></li>
+
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+				
+			<h1>Abstract</h1>
+			<p>
+			Advancements in technology and machine learning have important implications in the fields of advertising and marketing, in which the delivery of the right ad to the right consumer in real time is made possible by analyzing complex, data-rich consumer profiles for correlations between consumer attributes and consumer activity. The evaluation of previous marketing campaign success based on the consumers that saw it and the actions that they took is achievable in businesses and organizations with wide swaths of historical performance data, but not as accessible to smaller businesses. The purpose of this project was to enrich, preprocess, and apply machine learning algorithms to historical data on content displayed and patient outcomes in veterinary clinic settings in order to identify correlations and classify media types based on the best-suited audience, and vice versa. Multinomial Logistic Regression classified the level of patient compliance 59% of the time using features consisting of ad exposure types and counts. Additionally, a Random Forest Regression model evaluated whether ad distribution could be predicted based on patient attributes, compliance history, and compliance goals but did not return an R-squared value above 0.03. Suggestions for future research were provided following the evaluation of results.
+				</p>
+				<p>
+			</div>
+		</div>
+	
+
+
+    <title>Basic Embed</title>
+    
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "https://public.tableau.com/views/PetCauseMediaInc_ClientStatistics/PetCauseMediaInc_ClientStatistics?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+            
+            // Create a viz object and embed it in the container div.
+            var viz = new tableau.Viz(containerDiv, url, options); 
+        }
+    </script>
+</head>
+
+<body onload="initViz();">
+	<div id="main">
+		<div id="header">
+   		 <div id="vizContainer" style="width:800px; height:700px;"></div>
+		</div>
+	</div>
+
+
+   
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
